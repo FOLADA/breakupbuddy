@@ -139,9 +139,9 @@ export function useParallaxCanvas(containerRef: React.RefObject<HTMLDivElement |
 
     return () => {
       window.removeEventListener("resize", resize);
-      canvas.removeEventListener("mousemove", onMove as any);
-      canvas.removeEventListener("touchmove", onMove as any);
-      canvas.removeEventListener("mouseleave", onLeave as any);
+      canvas.removeEventListener("mousemove", onMove);
+      canvas.removeEventListener("touchmove", onMove);
+      canvas.removeEventListener("mouseleave", onLeave);
       if (rafId) cancelAnimationFrame(rafId);
       if (idleId) cancelAnimationFrame(idleId);
     };
