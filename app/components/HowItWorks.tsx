@@ -4,7 +4,7 @@ export default function HowItWorks() {
   return (
     <section id="how" className="relative max-w-7xl mx-auto px-6 py-16">
       <h2 className="text-2xl font-semibold text-white">How it works</h2>
-      <p className="text-gray-400 mt-2 max-w-2xl">A three-step flow that gets you onboarded, supported and progressing — with an elegant node-stick parallax that mirrors emotional connectivity.</p>
+      <p className="text-gray-400 mt-2 max-w-2xl">A three-step flow that gets you onboarded, supported and progressing</p>
 
       <div className="mt-8">
         <ParallaxCanvas>
